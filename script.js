@@ -1,67 +1,66 @@
-
 //Popup boxes appear and disappear
-function firstImage() {
   var p1 = document.getElementById("ET");
+  var p2 = document.getElementById("LToP");
+  var p3 = document.getElementById("SoL");
+  var p4 = document.getElementById("StMB");
+  var p5 = document.getElementById("CtR");
+  var p6 = document.getElementById("AdT");
+  var p7 = document.getElementById("BhP");
+  var p8 = document.getElementById("C");
+  var p9 = document.getElementById("GGB");
+  var p10 = document.getElementById("GWoC");
+  var p11 = document.getElementById("MP");
+  var p12 = document.getElementById("TMh");
+
+function firstImage() {
   p1.classList.toggle("show");
 }
 
 function secondImage() {
-  var p2 = document.getElementById("LToP");
   p2.classList.toggle("show");
 }
 
 function thirdImage() {
-  var p3 = document.getElementById("SoL");
   p3.classList.toggle("show");
 }
 
 function fourthImage() {
-  var popup4 = document.getElementById("StMB");
   p4.classList.toggle("show");
 }
 
 function fifthImage() {
-  var p5 = document.getElementById("CtR");
   p5.classList.toggle("show");
 }
 
 function sixthImage() {
-  var p6 = document.getElementById("AdT");
   p6.classList.toggle("show");
 }
 
 function seventhImage() {
-  var p7 = document.getElementById("BhP");
   p7.classList.toggle("show");
 }
 
 function eighthImage() {
-  var p8 = document.getElementById("C");
   p8.classList.toggle("show");
 }
 
 function ninthImage() {
-  var p9 = document.getElementById("GGB");
   p9.classList.toggle("show");
 }
 
 function tenthImage() {
-  var p10 = document.getElementById("GWoC");
   p10.classList.toggle("show");
 }
 
 function eleventhImage() {
-  var p11 = document.getElementById("MP");
   p11.classList.toggle("show");
 }
 
 function twelfthImage() {
-  var p12 = document.getElementById("TMh");
   p12.classList.toggle("show");
 }
 
-//The amount of places the user has visited is counted at the top right of the screen
-		
+//The amount of places the user has visited is counted at the top right of the screen		
 var a = document.getElementById("a")
 var b = 0;
 
@@ -115,7 +114,6 @@ function disableBlue(){
 	yellow.disabled = false;
 }
 	
-
 function flyForward(){
 	document.getElementById("body").classList.add("fly-forward");
 }
