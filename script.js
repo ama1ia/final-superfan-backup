@@ -13,13 +13,16 @@
   var p12 = document.getElementById("TMh");
 
 var popups = [p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12]
-popups = popups
-//pLen = popups.length; 
+var popups = popups;
+pLen = popups.length; 
 
-popups.forEach(popupBox);
-function popupBox() {
+for (i = 0; i < pLen; i++) {
  popups.classList.toggle("show");
 }
+//popups.forEach(popupBox);
+//function popupBox() {
+// popups.classList.toggle("show");
+//}
 
 function firstImage() {
   p1.classList.toggle("show");
