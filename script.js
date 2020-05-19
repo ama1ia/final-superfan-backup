@@ -102,11 +102,13 @@ function subtractOne(){
 	
 }
 
+var body = document.getElementById("body")
 function checkEquivalence(){
 	if (b == 12){
-		document.getElementById("body").classList.add("airplane");
-		flyForward();
-		//document.getElementById("body").classList.add("fly-forward");
+		body.classList.add("airplane");
+		//flyForward();
+		body.classList.add("fly-forward");
+		console.log("Success");
 		//document.getElementById("body").classList.innerHTML = "You're Done!";
 		//document.getElementById("body").classList.add("center-vertical");
 		//document.getElementById("body").classList.add("contain-image");
