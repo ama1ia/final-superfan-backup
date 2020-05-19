@@ -109,8 +109,8 @@ function checkEquivalence(){
 		//flyForward();
 		body.classList.add("fly-forward");
 		console.log("Success");
-		//document.getElementById("body").classList.innerHTML = "You're Done!";
-		//document.getElementById("body").classList.add("center-vertical");
+		body.classList.innerHTML = "You're Done!";
+		//body.classList.add("center-vertical");
 		//document.getElementById("body").classList.add("contain-image");
 	}
 }	
