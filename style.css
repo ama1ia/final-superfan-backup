@@ -272,10 +272,10 @@ img:active{
 	content:url(images/airplane.png);
 	width: 50%;
 	height: 50%;
-	transform: translate(10000px, 0);
+	transform: translate(200px, 0);
 	transition: transform 10s ease;
 }
-
+/*transform: translate(10000px, 0);*/
 @media only screen and (max-width: 1216px){
 	.h{
 		font-size: 25;
