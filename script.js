@@ -122,6 +122,13 @@ function disappearContent(){
 	document.getElementById("bottom").style.display = "none;
 }
 
+function addText(){
+	var p = document.createElement("p");
+	var text = document.createTextNode("You're done!");
+	para.appendChild(text);
+	body.appendChild(p);
+}
+
 var blue = document.getElementById("yes");
 var yellow = document.getElementById("no");
 
