@@ -106,6 +106,7 @@ var body = document.getElementById("body")
 function checkEquivalence(){
 	if (b == 12){
 		body.classList.add("airplane");
+		body.classList.add("pulse");
 		//flyForward();
 		body.classList.add("fly-forward");
 		console.log("Success");
