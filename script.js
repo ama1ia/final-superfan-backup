@@ -102,12 +102,12 @@ function subtractOne(){
 	checkEquivalence();
 	
 }
-
+ 
 var body = document.getElementById("body")
 function checkEquivalence(){
 	if (b == 12){
+		disappearContent();
 		body.classList.add("airplane");
-		//body.classList.add("pulse");
 		//flyForward();
 		body.classList.add("fly-forward");
 		console.log("Success");
@@ -115,7 +115,12 @@ function checkEquivalence(){
 		//body.classList.add("center-vertical");
 		//document.getElementById("body").classList.add("contain-image");
 	}
-}	
+}
+
+function disappearContent(){
+	document.getElementById("top").style.display = "none";
+	document.getElementById("bottom").style.display = "none;
+}
 
 var blue = document.getElementById("yes");
 var yellow = document.getElementById("no");
