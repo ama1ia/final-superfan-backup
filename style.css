@@ -278,19 +278,19 @@ img:active{
 
 //.airplane
 
- @-webkit-keyframes pulse {
+ @-webkit-keyframes airplane {
             0% { -webkit-transform: scale(1); }
             50% { -webkit-transform: scale(1.1); }
             100% { -webkit-transform: scale(1); }
          }
          
-@keyframes pulse {
+@keyframes airplane {
             0% { transform: scale(1); }
             50% { transform: scale(1.1); }
             100% { transform: scale(1); }
          }
          
-.pulse {
+.airplane {
             -webkit-animation-name: pulse;
             animation-name: pulse;
          }
