@@ -120,7 +120,7 @@ function checkEquivalence(){
 
 function disappearContent(){
 	document.getElementById("top").style.display = "none";
-	document.getElementById("bottom").style.display = "none;
+	document.getElementById("bottom").style.display = "none";
 }
 
 function addText(){
