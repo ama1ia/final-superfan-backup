@@ -109,9 +109,10 @@ function checkEquivalence(){
 		disappearContent();
 		body.classList.add("airplane");
 		//flyForward();
+		addText();
 		body.classList.add("fly-forward");
 		console.log("Success");
-		body.innerHTML = "You're Done!";
+		//body.innerHTML = "You're Done!";
 		//body.classList.add("center-vertical");
 		//document.getElementById("body").classList.add("contain-image");
 	}
