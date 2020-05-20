@@ -272,8 +272,8 @@ img:active{
 	content:url(images/airplane.png);
 	width: 50%;
 	height: 50%;
-	/*transform: translate(10000px, 0);
-	transition: transform 10s ease;*/
+	transform: translate(10000px, 0);
+	transition: transform 10s ease;
 }
 
 //.airplane
