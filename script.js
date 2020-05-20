@@ -126,7 +126,7 @@ function disappearContent(){
 function addText(){
 	var p = document.createElement("p");
 	var text = document.createTextNode("You're done!");
-	para.appendChild(text);
+	p.appendChild(text);
 	body.appendChild(p);
 }
 
