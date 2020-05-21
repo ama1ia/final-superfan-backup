@@ -73,7 +73,7 @@ function twelfthImage() {
 }
 
 //The amount of places the user has visited is counted at the top right of the screen		
-var a = document.getElementById("a")
+var a = document.getElementById("a");
 var b = 0;
 
 function checkButton(){
@@ -103,11 +103,12 @@ function subtractOne(){
 	
 }
  
-var body = document.getElementById("body")
+var body = document.getElementById("body");
+var pic = document.getElementById("pic");
 function checkEquivalence(){
 	if (b == 12){
 		disappearContent();
-		body.classList.add("airplane");
+		pic.classList.add("airplane");
 		//flyForward();
 		//addText();
 		body.classList.add("fly-forward");
