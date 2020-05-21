@@ -124,6 +124,7 @@ function disappearContent(){
 }
 
 function addText(){
+	body.classList.add("h1");
 	body.style.display = "block";
 	var p = document.createElement("p");
 	var text = document.createTextNode("You're done!");
