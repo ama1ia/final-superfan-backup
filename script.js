@@ -78,7 +78,6 @@ var b = 0;
 
 function checkButton(){
 	if (b == 0){
-		//body.style.display = "none";
 		yellow.disabled = true;
 		blue.disabled = false;
 	}
@@ -109,12 +108,8 @@ function checkEquivalence(){
 	if (b == 12){
 		disappearContent();
 		pic.classList.add("airplane");
-		//flyForward();
 		addText();
-		//body.classList.add("fly-forward");
-		console.log("Success");
-		//body.classList.add("center-vertical");
-		//document.getElementById("body").classList.add("contain-image");
+		console.log("Success");	
 	}
 }
 
@@ -126,12 +121,14 @@ function disappearContent(){
 function addText(){
 	body.classList.add("h1");
 	body.innerHTML = "You're Done!";
-	//body.style.display = "block";
-	//var p = document.createElement("p");
-	//var text = document.createTextNode("You're done!");
-	//p.appendChild(text);
-	//body.appendChild(p);
+	
 }
+
+//body.style.display = "block";
+//var p = document.createElement("p");
+//var text = document.createTextNode("You're done!");
+//p.appendChild(text);
+//body.appendChild(p);
 
 var blue = document.getElementById("yes");
 var yellow = document.getElementById("no");
@@ -149,3 +146,8 @@ function disableBlue(){
 function flyForward(){
 	document.getElementById("body").classList.add("fly-forward");
 }
+//body.classList.add("fly-forward");
+//flyForward();
+//body.classList.add("center-vertical");
+//document.getElementById("body").classList.add("contain-image");
+//body.style.display = "none";
