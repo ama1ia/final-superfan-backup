@@ -81,6 +81,9 @@ function checkButton(){
 		yellow.disabled = true;
 		blue.disabled = false;
 	}
+	else{
+		yellow.disabled = false;
+		blue.disabled = false;
 }
 		
 console.log(b);		
