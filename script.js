@@ -84,6 +84,7 @@ function checkButton(){
 	else{
 		yellow.disabled = false;
 		blue.disabled = false;
+	}
 }
 		
 console.log(b);		
@@ -93,7 +94,6 @@ function addOne(){
 	a.innerHTML = b + " out of 12 places visited";
 	console.log(b);
 	checkEquivalence();
-	
 }
 
 function subtractOne(){
