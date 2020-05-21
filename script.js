@@ -78,7 +78,7 @@ var b = 0;
 
 function checkButton(){
 	if (b == 0){
-		body.style.display = "none";
+		//body.style.display = "none";
 		yellow.disabled = true;
 		blue.disabled = false;
 	}
@@ -109,10 +109,10 @@ function checkEquivalence(){
 		disappearContent();
 		body.classList.add("airplane");
 		//flyForward();
-		addText();
+		//addText();
 		body.classList.add("fly-forward");
 		console.log("Success");
-		//body.innerHTML = "You're Done!";
+		body.innerHTML = "You're Done!";
 		//body.classList.add("center-vertical");
 		//document.getElementById("body").classList.add("contain-image");
 	}
