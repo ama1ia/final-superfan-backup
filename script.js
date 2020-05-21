@@ -78,7 +78,7 @@ var b = 0;
 
 function checkButton(){
 	if (b == 0){
-		console.log("disabled");
+		body.style.display = "none";
 		yellow.disabled = true;
 		blue.disabled = false;
 	}
