@@ -110,10 +110,9 @@ function checkEquivalence(){
 		disappearContent();
 		pic.classList.add("airplane");
 		//flyForward();
-		//addText();
-		body.classList.add("fly-forward");
+		addText();
+		//body.classList.add("fly-forward");
 		console.log("Success");
-		body.innerHTML = "You're Done!";
 		//body.classList.add("center-vertical");
 		//document.getElementById("body").classList.add("contain-image");
 	}
@@ -126,11 +125,12 @@ function disappearContent(){
 
 function addText(){
 	body.classList.add("h1");
-	body.style.display = "block";
-	var p = document.createElement("p");
-	var text = document.createTextNode("You're done!");
-	p.appendChild(text);
-	body.appendChild(p);
+	body.innerHTML = "You're Done!";
+	//body.style.display = "block";
+	//var p = document.createElement("p");
+	//var text = document.createTextNode("You're done!");
+	//p.appendChild(text);
+	//body.appendChild(p);
 }
 
 var blue = document.getElementById("yes");
